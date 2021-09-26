@@ -1,7 +1,8 @@
 import React from 'react'
+import PageBackground from './components/PageBackground'
 
 function App() {
-	return <div>HELLO ??!</div>
+	return <PageBackground />
 }
 
 export default App

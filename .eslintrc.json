@@ -18,6 +18,11 @@
 		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
 		"no-tabs": "off",
 		"indent": "off",
-		"react/jsx-indent": "off"
+		"react/jsx-indent": "off",
+		"jsx-quotes":"off",
+		"react/jsx-indent-props":"off",
+		"react/jsx-closing-bracket-location":["off"],
+		"react/prop-types": "off",
+		"object-curly-newline":"off"
 	}
 }
