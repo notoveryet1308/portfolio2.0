@@ -23,6 +23,8 @@
 		"react/jsx-indent-props":"off",
 		"react/jsx-closing-bracket-location":["off"],
 		"react/prop-types": "off",
-		"object-curly-newline":"off"
+		"object-curly-newline":"off",
+		"no-confusing-arrow":"off",
+		"implicit-arrow-linebreak":"warn"
 	}
 }

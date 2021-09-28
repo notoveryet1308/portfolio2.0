@@ -21,7 +21,7 @@ function PageBackground() {
 						x={100}
 						y={100}
 						r={50}
-						strokeWidth={40}
+						strokeWidth={30}
 						hexColor='#08bd80'
 					/>
 				</AbsolutePosWrapper>
