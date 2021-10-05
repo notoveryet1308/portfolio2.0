@@ -22,19 +22,23 @@ module.exports = {
 					'sass-loader',
 				],
 			},
-			{
-				test: /\.(png|jpe?g|gif|webp)$/i,
-				use: [
-					{
-						loader: 'file-loader',
-					},
-				],
-			},
+			// {
+			// 	test: /\.(png|jpe?g|gif|webp)$/i,
+			// 	use: [
+			// 		{
+			// 			loader: 'file-loader',
+			// 		},
+			// 	],
+			// },
 			{
 				test: /\.(png|woff|woff2|eot|ttf|svg)$/,
 				loader: 'url-loader',
 			},
 		],
+	},
+	devServer: {
+		historyApiFallback: true,
+		hot: true,
 	},
 	plugins: [
 		new HtmlWebpackPlugin({

@@ -5,6 +5,7 @@ const colors = {
 	primary: '#08BD80',
 	greyColor5: '#e5e5e5',
 	blackColor80: '#2D3039',
+	blackColor70: 'rgba(45, 48, 57, 0.93)',
 	greyColor70: '#525655',
 	purpleColor: '#6363CE',
 }

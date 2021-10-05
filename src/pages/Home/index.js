@@ -2,7 +2,7 @@ import React from 'react'
 import { ButtonLink } from '../../components/common/styledComponent/button'
 import {
 	PageWrapper,
-	HomePageContent,
+	PageContent,
 	BlockWrapper,
 } from '../../components/common/styledComponent/wrapper'
 import { H1, Paragraph, Hightlight } from '../../components/Typography'
@@ -10,7 +10,10 @@ import { H1, Paragraph, Hightlight } from '../../components/Typography'
 function Home() {
 	return (
 		<PageWrapper>
-			<HomePageContent>
+			<PageContent
+				justifyContent='center'
+				flexDirection='column'
+				alignItem='center'>
 				<BlockWrapper marginBottom='10px'>
 					<Paragraph color='white'>
 						Hello there, my name is
@@ -33,7 +36,7 @@ function Home() {
 						Say hello
 					</ButtonLink>
 				</BlockWrapper>
-			</HomePageContent>
+			</PageContent>
 		</PageWrapper>
 	)
 }

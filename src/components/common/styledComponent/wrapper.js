@@ -35,7 +35,7 @@ const StickyContentWrapper = styled.div`
 const PageWrapper = styled.div`
 	width: 100%;
 	position: relative;
-	padding: 0 1.5rem;
+	padding: 1.5rem;
 	min-height: calc(100vh - 106px);
 `
 const FlexCentreWrapper = styled.div`
@@ -49,17 +49,20 @@ const FlexCentreWrapper = styled.div`
 	border-bottom: ${({ borderBottom, theme }) =>
 		borderBottom && `1px solid ${theme.colors.greyColor5}`};
 `
-const HomePageContent = styled.div`
+const PageContent = styled.div`
 	position: relative;
 	width: 100%;
-	min-height: calc(100vh - 80px - 106px);
+	min-height: calc(100vh - 216px);
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	flex-direction: ${({ flexDirection }) => flexDirection};
+	align-items: ${({ alignItem }) => alignItem};
+	justify-content: ${({ justifyContent }) => justifyContent};
+	flex-wrap: wrap;
+	padding-bottom: ${({ mPaddingBottom }) => mPaddingBottom};
 	@media (min-width: 600px) {
 		width: 600px;
 		margin: 0 auto;
+		padding: 0;
 	}
 `
 
@@ -75,6 +78,17 @@ const BlockWrapper = styled.div`
 		/* width: unset; */
 	}
 `
+const CardWrapper = styled.div`
+	position: relative;
+	height: auto;
+	background-color: ${({ theme }) => theme.colors.blackColor70};
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 10px;
+	padding: 20px;
+`
 
 export {
 	MovingWrapper,
@@ -82,6 +96,7 @@ export {
 	StickyContentWrapper,
 	PageWrapper,
 	FlexCentreWrapper,
-	HomePageContent,
+	PageContent,
 	BlockWrapper,
+	CardWrapper,
 }

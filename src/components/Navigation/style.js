@@ -12,10 +12,11 @@ const NavigationContainerLarge = styled.nav`
 `
 const NavigationLink = styled(NavLink)`
 	position: relative;
-	padding: 4.5px 10px;
+	padding: 2px 10px;
 	font-size: 14px;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+	/* font-weight: bold; */
 	letter-spacing: 2px;
 	color: ${({ active, theme }) =>
 		active ? theme.colors.white : theme.colors.greyColor70};
@@ -31,6 +32,8 @@ const NavigationContainerSmall = styled.nav`
 	width: 100%;
 	height: 50px;
 	display: block;
+	z-index: 22;
+	border-top: 1px solid #08bd80;
 	@media (min-width: 600px) {
 		display: none;
 	}
@@ -53,13 +56,14 @@ const NavigationIconLink = styled(NavLink)`
 const NavigationLinkLabel = styled.span`
 	position: absolute;
 	top: -1.8rem;
-	padding: 4.5px 10px;
+	padding: 2px 10px;
 	display: ${({ active }) => (active ? 'inline' : 'none')};
 	text-transform: uppercase;
-	font-size: 1rem;
+	font-size: .8rem;
 	color: ${({ theme }) => theme.colors.white};
 	background-color: ${({ theme }) => theme.colors.primary};
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+	font-family: 'Poppins', sans-serif;
 `
 
 export {
