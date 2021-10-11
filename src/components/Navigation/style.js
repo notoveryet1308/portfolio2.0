@@ -2,10 +2,14 @@ import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 
 const NavigationContainerLarge = styled.nav`
-	position: relative;
+	position: sticky;
+	top: 0;
+	left: 0;
 	width: 100%;
-	height: 35px;
+	height: 50px;
+	border-bottom: 1px solid #08bd80;
 	display: none;
+	z-index: 222;
 	@media (min-width: 600px) {
 		display: block;
 	}

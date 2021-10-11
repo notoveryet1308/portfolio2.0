@@ -40,7 +40,7 @@ const NavigationLarge = () => {
 	}
 	return (
 		<NavigationContainerLarge>
-			<StickyContentWrapper top='0' left='0'>
+			{/* <StickyContentWrapper top='0' left='0'> */}
 				<FlexCentreWrapper height='100%' bgColor='blackColor80'>
 					$
 					{navigationData.map((route) => (
@@ -49,7 +49,7 @@ const NavigationLarge = () => {
 						</NavigationLink>
 					))}
 				</FlexCentreWrapper>
-			</StickyContentWrapper>
+			{/* </StickyContentWrapper> */}
 		</NavigationContainerLarge>
 	)
 }

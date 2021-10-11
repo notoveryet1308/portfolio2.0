@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components'
+import styled, { keyframes, css } from 'styled-components'
 
 const updown = (startPosY, finishPosY) => keyframes`
   0% {
@@ -41,6 +41,7 @@ const PageWrapper = styled.div`
 const FlexCentreWrapper = styled.div`
 	position: relative;
 	width: 100%;
+	flex-wrap: wrap;
 	height: ${({ height }) => height};
 	background-color: ${({ bgColor, theme }) => theme.colors[bgColor]};
 	display: flex;
@@ -64,6 +65,14 @@ const PageContent = styled.div`
 		margin: 0 auto;
 		padding: 0;
 	}
+
+	${({ isProject }) => isProject && css`
+	@media (min-width: 800px) {
+		width: 800px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	`}
 `
 
 const BlockWrapper = styled.div`

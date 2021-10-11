@@ -5,7 +5,7 @@ const SkillCategoryLabel = styled.p`
   font-size: 24px;
   color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
-  margin: 15px 0;
+  margin: 18px 0 5px 0;
 `
 
 const SkillDisplay = styled.div`
