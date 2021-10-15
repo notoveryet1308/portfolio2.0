@@ -98,6 +98,10 @@ const CardWrapper = styled.div`
 	row-gap: 10px;
 	padding: 20px;
 `
+const MarginWrapper = styled.div`
+	position: relative;
+	margin-bottom: ${({ mbottom }) => mbottom};
+`
 
 export {
 	MovingWrapper,
@@ -108,4 +112,5 @@ export {
 	PageContent,
 	BlockWrapper,
 	CardWrapper,
+	MarginWrapper,
 }

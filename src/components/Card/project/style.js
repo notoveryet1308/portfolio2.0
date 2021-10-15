@@ -58,9 +58,9 @@ const Techstack = styled.span`
 	color: #fff;
 	font-family: 'Poppins';
 	border: 1.5px solid #1d6653;
-	padding: 2px 5px;
+	padding: 2px 10px;
 	border-radius: 15px;
-	margin: 2px;
+	margin: 5px ;
 `
 const ProjectCTAWrapper = styled.div`
 	width: 100%;
