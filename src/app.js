@@ -6,6 +6,7 @@ import PageBackground from './components/PageBackground'
 import About from './pages/About'
 import Home from './pages/Home'
 import Project from './pages/Project'
+import Resource from './pages/Resource'
 import Skills from './pages/Skill'
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
 				<Route exact path='/skills' component={Skills} />
 				<Route exact path='/projects' component={Project} />
 				<Route exact path='/about' component={About} />
+				<Route exact path='/resources' component={Resource} />
+
 			</Switch>
 		</>
 	)

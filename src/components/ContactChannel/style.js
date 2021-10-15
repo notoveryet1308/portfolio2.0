@@ -4,7 +4,7 @@ const CotactChannelWrapper = styled.div`
 	position: relative;
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: ${({ justifyContent }) => justifyContent};
 	gap: 10px;
 	flex-wrap: wrap;
 `

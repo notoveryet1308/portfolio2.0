@@ -3,9 +3,9 @@ import { GithubLogo, TwitterLogo, LinkedinLogo } from 'phosphor-react'
 
 import { CotactChannelWrapper, Channel, ChannelName } from './style'
 
-function ContactChannel() {
+function ContactChannel({ justifyContent }) {
 	return (
-		<CotactChannelWrapper>
+		<CotactChannelWrapper justifyContent={justifyContent}>
 			<Channel href='https://www.linkedin.com/in/rahul1308/' target='_blank'>
 				<LinkedinLogo color='white' size='28' />
 				<ChannelName>LinkedIn</ChannelName>

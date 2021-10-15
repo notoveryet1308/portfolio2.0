@@ -5,6 +5,7 @@ import {
 	PageContent,
 	BlockWrapper,
 } from '../../components/common/styledComponent/wrapper'
+import ContactChannel from '../../components/ContactChannel'
 import { H1, Paragraph, Hightlight } from '../../components/Typography'
 
 function Home() {
@@ -27,14 +28,8 @@ function Home() {
 				<Paragraph color='white'>
 					I love what I do. I write scalable, maintainable and resuable code.
 				</Paragraph>
-				<BlockWrapper marginTop='20px'>
-					<ButtonLink
-						to='/contact'
-						color='white'
-						bgColor='purpleColor'
-						fontSize='16px'>
-						Say hello
-					</ButtonLink>
+				<BlockWrapper marginTop='30px'>
+					<ContactChannel justifyContent='flex-start' />
 				</BlockWrapper>
 			</PageContent>
 		</PageWrapper>

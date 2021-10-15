@@ -21,9 +21,9 @@ function About() {
 				</MarginWrapper>
 				<MarginWrapper mbottom='10px'>
 					<Paragraph color='white'>
-						I mostly work on frontned related technologies like Javascript, Css
-						and Reactjs but i can work on backend stuffs like creating APIs,
-						MongoDB, JWT and etc.
+						I mostly work on frontend related technologies like Javascript, Css
+						and Reactjs but I can work on backend technologies like creating APIs,
+						MongoDB, JWT and Express.
 					</Paragraph>
 				</MarginWrapper>
 				<MarginWrapper mbottom='10px'>
@@ -35,7 +35,7 @@ function About() {
 				<MarginWrapper mbottom='40px'>
 					<Paragraph color='white'>Thank you visiting.</Paragraph>
 				</MarginWrapper>
-				<ContactChannel />
+				<ContactChannel justifyContent='center' />
 			</PageContent>
 		</PageWrapper>
 	)

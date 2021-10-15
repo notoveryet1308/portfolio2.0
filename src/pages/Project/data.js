@@ -17,7 +17,6 @@ const projectData = [
 			'Api',
 			'Auth-JWT',
 			'Webpack',
-			'Git/Github',
 		],
 		liveUrl: 'https://infinite-peak-84010.herokuapp.com/',
 		codeUrl: 'https://github.com/notoveryet1308/ecom',

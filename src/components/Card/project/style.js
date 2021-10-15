@@ -38,7 +38,7 @@ const ProjectDetail = styled.div`
 	width: 100%;
 	padding: 10px;
 	background-color: rgba(45, 48, 57, 0.92);
-	border: 1px solid #08bd80;
+	/* border: 1px solid #08bd80; */
 	border-top: none;
 `
 const ProjectTitle = styled.p`
@@ -57,7 +57,8 @@ const Techstack = styled.span`
 	font-size: 14px;
 	color: #fff;
 	font-family: 'Poppins';
-	border: 1.5px solid #1d6653;
+	/* border: 1.5px solid #1d6653; */
+	background: rgba(82, 86, 85, 0.3);
 	padding: 2px 10px;
 	border-radius: 15px;
 	margin: 5px ;
@@ -79,11 +80,10 @@ const ProjectCTA = styled.a`
 	font-size: 16px;
 	text-align: center;
 	transition: all 300ms ease-in-out;
-	background: #6363ce;
-	border: 1px solid #6363ce;
-	padding: 5px 20px;
+	background: rgba(99, 99, 206, 0.4);
+	padding: 2px 10px;
 	&:hover {
-		background: rgba(99, 99, 206, 0.48);
+		background: rgba(99, 99, 206, 1);
 		transition: all 300ms ease-in-out;
 	}
 `
