@@ -51,10 +51,6 @@ const tools = [
 		label: 'Webpack',
 	},
 	{
-		img: git,
-		label: 'Git',
-	},
-	{
 		img: figma,
 		label: 'Figma',
 	},

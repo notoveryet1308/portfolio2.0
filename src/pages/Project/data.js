@@ -26,7 +26,7 @@ const projectData = [
 		imgUrl: twitter,
 		description:
 			'Twiiter UI, single page web app made using vanilla Javascript.',
-		techStack: ['JavaScript', 'HTML5', 'SASS', 'Webpack', 'Git/Github'],
+		techStack: ['JavaScript', 'HTML5', 'SASS', 'Webpack'],
 		liveUrl: 'cloneui-twitter.netlify.app',
 		codeUrl: 'https://github.com/notoveryet1308/twitter-ui',
 	},
@@ -34,7 +34,7 @@ const projectData = [
 		name: 'Tastyroma',
 		imgUrl: tastyroma,
 		description: 'Tastyroma is food ordering app made using React.js.',
-		techStack: ['React.js', 'SASS', 'Redux', 'Git/Github'],
+		techStack: ['React.js', 'SASS', 'Redux'],
 		liveUrl: 'https://tastyroma.netlify.app/',
 		codeUrl: 'https://github.com/notoveryet1308/tastyroma-new-design',
 	},
