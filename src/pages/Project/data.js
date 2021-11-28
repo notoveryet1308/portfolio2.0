@@ -27,7 +27,7 @@ const projectData = [
 		description:
 			'Twiiter UI, single page web app made using vanilla Javascript.',
 		techStack: ['JavaScript', 'HTML5', 'SASS', 'Webpack'],
-		liveUrl: 'cloneui-twitter.netlify.app',
+		liveUrl: 'https://cloneui-twitter.netlify.app/',
 		codeUrl: 'https://github.com/notoveryet1308/twitter-ui',
 	},
 	{
